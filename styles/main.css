@@ -4,8 +4,11 @@
 
 
 h1 {
-  color: grey;
-  padding: 40px;
+  color: #fff;
+  padding: 90px;
+  text-align: center;
+  background: black;
+  margin: 40px;
 }
 
 h3 {
@@ -32,40 +35,9 @@ a:hover {
   max-width: 800px;
 }
 
-.link1  {
-  outline: 5px solid black;
-  padding: 20px;
-}
 
-.link2  {
-  outline: 5px solid black;
-  padding: 20px;
-}
+.links {
+  text-align: center;
+  padding: 10px;
 
-.heading  {
-  outline: 5px solid black;
-  padding: 20px;
-  padding-right: 25px;
-  background-color: black;
-  color: #fff;
-}
-
-.main {
-  display: flex;
-  padding-top: 200px;
-  padding-left: 350px;
-  padding-right: 200px;
-}
-
-.main2 {
-  display: flex;
-  padding-top: 10px;
-  padding-left: 350px;
-  padding-right: 200px;
-}
-
-
-.li {
-  margin: 40px;
-  outline: 5px solid black;
 }
