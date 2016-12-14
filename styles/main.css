@@ -45,6 +45,11 @@
   padding-top: 40px;
 }
 
+.home-button {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
 a:link {
   color: grey;
   text-decoration: none;
