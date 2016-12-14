@@ -1,8 +1,57 @@
+
+@media (min-width: 400px){
+  .image1 {
+    display: none;
+  }
+  .image2 {
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 550px) {
+
+  .image1 {
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .image2{
+    display: none;
+  }
+
+}
+
+* {
+  font-family: 'Athiti', sans-serif;
+}
+
 .homepage {
   padding-top: 100px;
   padding-bottom: 200px;
 }
 
+.links {
+  padding: 20px;
+  background: #d1e671;
+}
+
 .heading {
   padding-top: 40px;
+}
+
+a:link {
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: grey;
+  text-decoration: none;
 }
