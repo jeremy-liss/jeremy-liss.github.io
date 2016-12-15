@@ -28,12 +28,21 @@
 }
 
 .homepage {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 200px;
+  background: url(https://jeremy-liss.github.io/images/stpauls.jpg) center;
 }
+
+.button {
+  background: #fd734e;
+}
+
+
 
 .about-button {
   padding-left: 14px;
+  padding-bottom: 10px;
+  text-align: right;
 }
 
 .links {
@@ -42,8 +51,17 @@
 }
 
 .heading {
-  padding-top: 40px;
+  padding-top: 100px;
+  color: #fd734e;
+  text-align: right;
 }
+
+.sub {
+  color: #fd734e;
+  text-align: right;
+  padding-bottom: 10px;
+}
+
 
 .home-button {
   padding-top: 15px;
