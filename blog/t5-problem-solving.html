@@ -38,16 +38,28 @@
           <h3>Problem Solving Techniques</h3>
           <ul>
             <li><em>Psuedocode:</em> I like the idea of psuedocoding. I don't feel completely confident in it yet as I feel I still need to get more familiar with the structure and syntax of javascript even to psuedocode.</li>
-            <li><em>Try Something:</em> I feel quite confident 'trying something,' I think becaue I am a kinesthetic learner and am used to pulling things apart to see how they work, or sitting down with a new musical instruemnt and just seeing what I can do with it. Luckily with code it's easy just to undo what you've done so you can't do too much damage.</li>
+            <li><em>Try Something:</em> I feel quite confident 'trying something,' I think because I am a kinaesthetic learner and am used to pulling things apart to see how they work, or sitting down with a new musical instrument and just seeing what I can do with it. Luckily with code it's easy just to undo what you've done so you can't do too much damage</li>
             <li><em>Rubber Ducky Method:</em> I haven't tried this yet and feel a bit self conscious about trying it out. I may try writing an email to a rubber duck sometime and see if that has the same effect.</li>
-            <li><em>Reading Error Messages:</em> I have found this helpful sometimes, especially when it points something like a stray curly brace. Other times I find it difficult to decifer what the message is telling me.</li>
+            <li><em>Reading Error Messages:</em> I have found this helpful sometimes, especially when it points something like a stray curly brace. Other times I find it difficult to decipher what the message is telling me.</li>
             <li><em>Console.logging:</em> I wouldn't say that I feel confident with this. I'm still getting my head around when you would use console.log, but I'm starting to see the usefulness of the console.</li>
             <li><em>Googling:</em> I do a lot of googling to solve problems and have found it very useful so far. There always seem to be plenty of people having the same problem, in particular I've the stack overflow forums really helpful.</li>
             <li><em>Asking Peers for Help:</em> So far I haven't been so stuck that I've needed to do this. I defintiely identify with the reasons for being reluctant raised in the sprint material from last week. I think I'll definitely need to ask my peers for help at some point in the future so it's probably a good idea to get some practice in.</li>
             <li><em>Asking Coaches for Help:</em> Again I haven't got this far but I think I would be a bit confident asking someone in a teaching role for help, over my fellow students.</li>
             <li><em>Improving Process with Reflection:</em> I've found that reflecting at the end of the week has been really helpful. You can sort of feeling it being helpful as you type. I think I will need to remind myself to reflect right after instances of being blocked though.</li>
           </ul>
-
+          <h3>Functions</h3>
+            <h4>.map()</h4>
+            <p>
+              This function takes a pre-existing array, copies it, passes each element of the array through a given function, and returns a new array. For example you might have the following array: "var numbers = [1, 2, 3]". If you were to input "var doubles = numbers.map(timesTwo(x)), you would have a new array called doubles which would be [2, 4, 6], while numbers would still be [1, 2, 3]. Of course you would first need to define a function called timesTwo which multiplied x by two and then returned x.
+            </p>
+            <h4>.filter()</h4>
+            <p>
+              This function creates an new array by taking each element of an existing array and passing them through a test, those that don't pass the test are filtered out and not added to the new array. For example you might have the following array: var arr = [1, 8, 10, 3], and you might have a function called bigEnough which returns only numbers > 5. If you then input "var newArr = arr.filter(bigEnough)" a new array called newArr would be created which would be [8, 10]. The filter would have removed the numbers smaller than 5.
+            </p>
+            <h4>.reduce()</h4>
+            <p>
+              This function passes through each element of an array and reduces them to down to one element using a function that has been assigned to it. An example of a function is one that adds each element together, so an array such as 'var numbers = [1, 2, 3]' would become 'numbers = 6'.
+            </p>
         </div>
       </div>
     </div>
