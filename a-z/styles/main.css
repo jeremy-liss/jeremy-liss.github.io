@@ -1,0 +1,19 @@
+
+#az {
+  font-size: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Reenie Beanie', cursive;
+}
+
+p{
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Reenie Beanie', cursive;
+}
+
+body {
+ margin-top: 10%}
