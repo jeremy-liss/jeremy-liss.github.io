@@ -20,7 +20,7 @@ document.addEventListener('keypress', function(e){
       result = "Wine Biscuits"
       break;
     case 101:
-      result = "Emotionaly Charged Discussion About the Dishes"
+      result = "Emotionally Charged Discussion About the Dishes"
       break;
     case 114:
       result = "Rifts"
@@ -47,7 +47,7 @@ document.addEventListener('keypress', function(e){
       result = "Aggravated Robbery"
       break;
     case 115:
-      result = "Sally Ridge"
+      result = "Spatula, Burnt"
       break;
     case 100:
       result = "Dated Crockery"
@@ -56,7 +56,7 @@ document.addEventListener('keypress', function(e){
       result = "Frankfurter Casings"
       break;
     case 103:
-      result = "Gravy Powder"
+      result = "Grey Power Meeting"
       break;
     case 104:
       result = "Horrific Soup"
@@ -65,7 +65,7 @@ document.addEventListener('keypress', function(e){
       result = "Judgment of Each Other's Cooking Ability"
       break;
     case 107:
-      result = "Kraft"
+      result = "Kranskis"
       break;
     case 108:
       result = "Loss of Limb"
