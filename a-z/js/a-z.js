@@ -99,8 +99,6 @@ function display(e) {
   change()
 };
 
-
-
 function change(){
 document.getElementById("az").innerHTML = result;
 }
