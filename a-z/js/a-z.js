@@ -8,7 +8,9 @@
 var result = "";
 var num = 0;
 
-document.addEventListener('keypress', function(e){
+document.addEventListener('keypress', display)
+
+function display(e) {
 
   num = e.which;
 
@@ -95,7 +97,7 @@ document.addEventListener('keypress', function(e){
       result = "Press a Letter"
   }
   change()
-});
+};
 
 
 
