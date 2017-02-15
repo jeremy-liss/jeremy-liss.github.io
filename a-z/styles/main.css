@@ -1,10 +1,9 @@
 
 #az {
-  font-size: 10em;
+  font-size: 9em;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Reenie Beanie', cursive;
   text-align: center;
 }
 
@@ -13,8 +12,9 @@ p{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Reenie Beanie', cursive;
 }
 
 body {
- margin-top: 10%}
+ margin-top: 10%;
+ font-family: 'Reenie Beanie', cursive;
+}
