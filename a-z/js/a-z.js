@@ -1,10 +1,3 @@
-
-//document.addEventListener('DOMContentLoaded', start)
-//
-//function start(){
-//  change()
-//}
-
 var result = "";
 var num = 0;
 
@@ -25,7 +18,7 @@ function display(e) {
       result = "Emotionally Charged Discussion About the Dishes"
       break;
     case 114:
-      result = "Rifts"
+      result = "Race Against Time"
       break;
     case 116:
       result = "Thoughts etc."
@@ -46,7 +39,7 @@ function display(e) {
       result = "Pistachio Husks"
       break;
     case 97:
-      result = "Aggravated Robbery"
+      result = "Ant Colony"
       break;
     case 115:
       result = "Spatula, Burnt"
@@ -61,10 +54,10 @@ function display(e) {
       result = "Grey Power Meeting"
       break;
     case 104:
-      result = "Horrific Soup"
+      result = "Hope (RE: Expired milk I Just Drank)"
       break;
     case 106:
-      result = "Judgment of Each Other's Cooking Ability"
+      result = "Judge Judy"
       break;
     case 107:
       result = "Kranskis"
@@ -79,10 +72,10 @@ function display(e) {
       result = "Xenophobic Uncle"
       break;
     case 99:
-      result = "Crumbled Remains"
+      result = "Crumbs at Bottom of Otherwise Empty Biscuit Tin"
       break;
     case 118:
-      result = "Vibes (bad)"
+      result = "Vibraphone Classics Vol. II (On Stereo)"
       break;
     case 98:
       result = "Bungled Attempt at Tiramisu"
