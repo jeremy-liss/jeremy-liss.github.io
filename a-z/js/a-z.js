@@ -17,7 +17,7 @@ var things = {
   110: "No Dinner",
   111: "Old Piece of Ham",
   112: "Pistachio Husks",
-  113:"Quiet Sobbing",
+  113: "Quiet Sobbing",
   114: "Race Against Time",
   115: "Spatula, Burnt",
   116: "Thoughts etc.",
