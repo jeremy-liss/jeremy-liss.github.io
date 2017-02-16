@@ -1,5 +1,4 @@
 var result = "";
-var num = 0;
 
 var things = {
   97: "Ant Colony",
@@ -33,17 +32,15 @@ var things = {
 document.addEventListener('keypress', display)
 
 function display(e) {
-
   if (e.which > 96){
     result = things[e.which];
   }
   else {
     result = "Press a Letter";
   }
-
   change()
 };
 
 function change(){
 document.getElementById("az").innerHTML = result;
-}
+};
