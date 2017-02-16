@@ -1,5 +1,3 @@
-var result = "";
-
 var things = {
   97: "Ant Colony",
   98: "Bungled Attempt at Tiramisu",
@@ -33,14 +31,9 @@ document.addEventListener('keypress', display)
 
 function display(e) {
   if (e.which > 96){
-    result = things[e.which];
+    document.getElementById("az").innerHTML = things[e.which];
   }
   else {
-    result = "Press a Letter";
+    document.getElementById("az").innerHTML = "Press a Letter";
   }
-  change()
-};
-
-function change(){
-document.getElementById("az").innerHTML = result;
 };
