@@ -1,94 +1,46 @@
 var result = "";
 var num = 0;
 
+var things = {
+  97: "Ant Colony",
+  98: "Bungled Attempt at Tiramisu",
+  99: "Crumbs at Bottom of Otherwise Empty Biscuit Tin",
+  100: "Dated Crockery",
+  101: "Emotionally Charged Discussion About the Dishes",
+  102: "Frankfurter Casings",
+  103: "Grey Power Meeting",
+  104: "Hope (RE: Expired milk I Just Drank)",
+  105: "Indiscreet Landlady",
+  106: "Judge Judy",
+  107: "Kranskis",
+  108: "Loss of Limb",
+  109: "Moist Towelette",
+  110: "No Dinner",
+  111: "Old Piece of Ham",
+  112: "Pistachio Husks",
+  113:"Quiet Sobbing",
+  114: "Race Against Time",
+  115: "Spatula, Burnt",
+  116: "Thoughts etc.",
+  117: "Underwhelmed Dinner Guests",
+  118: "Vibraphone Classics Vol. II (On Stereo)",
+  119: "Wine Biscuits",
+  120: "Xenophobic Uncle",
+  121: "Youthful Reminiscences",
+  122: "Zane, Billy",
+};
+
 document.addEventListener('keypress', display)
 
 function display(e) {
 
-  num = e.which;
-
-  switch (num){
-    case 113:
-      result = "Quiet Sobbing"
-      break;
-    case 119:
-      result = "Wine Biscuits"
-      break;
-    case 101:
-      result = "Emotionally Charged Discussion About the Dishes"
-      break;
-    case 114:
-      result = "Race Against Time"
-      break;
-    case 116:
-      result = "Thoughts etc."
-      break;
-    case 121:
-      result = "Youthful Reminiscences"
-      break;
-    case 117:
-      result = "Underwhelmed Dinner Guests"
-      break;
-    case 105:
-      result = "Indiscreet Landlady"
-      break;
-    case 111:
-      result = "Old Piece of Ham"
-      break;
-    case 112:
-      result = "Pistachio Husks"
-      break;
-    case 97:
-      result = "Ant Colony"
-      break;
-    case 115:
-      result = "Spatula, Burnt"
-      break;
-    case 100:
-      result = "Dated Crockery"
-      break;
-    case 102:
-      result = "Frankfurter Casings"
-      break;
-    case 103:
-      result = "Grey Power Meeting"
-      break;
-    case 104:
-      result = "Hope (RE: Expired milk I Just Drank)"
-      break;
-    case 106:
-      result = "Judge Judy"
-      break;
-    case 107:
-      result = "Kranskis"
-      break;
-    case 108:
-      result = "Loss of Limb"
-      break;
-    case 122:
-      result = "Zane, Billy"
-      break;
-    case 120:
-      result = "Xenophobic Uncle"
-      break;
-    case 99:
-      result = "Crumbs at Bottom of Otherwise Empty Biscuit Tin"
-      break;
-    case 118:
-      result = "Vibraphone Classics Vol. II (On Stereo)"
-      break;
-    case 98:
-      result = "Bungled Attempt at Tiramisu"
-      break;
-    case 110:
-      result = "No Dinner"
-      break;
-    case 109:
-      result = "Moist Towelette"
-      break;
-    default:
-      result = "Press a Letter"
+  if (e.which > 96){
+    result = things[e.which];
   }
+  else {
+    result = "Press a Letter";
+  }
+
   change()
 };
 
