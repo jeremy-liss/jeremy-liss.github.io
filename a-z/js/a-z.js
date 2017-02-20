@@ -30,8 +30,16 @@ var things = {
 document.addEventListener('keypress', display)
 
 function display(e) {
-  if (e.which > 96){
-    document.getElementById("az").innerHTML = things[e.which];
+  var key = e.which
+
+  // Give the same result if shift is pressed or someone mistakenly mashes capslock
+  // Only works for ASCII
+  if (key > 64 && key < 91) {
+    key += 32
+  }
+
+  if (key > 96){
+    document.getElementById("az").innerHTML = things[key];
   }
   else {
     document.getElementById("az").innerHTML = "Press a Letter";
