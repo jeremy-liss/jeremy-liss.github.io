@@ -27,15 +27,15 @@ var things = {
   122: "Zane, Billy",
 };
 
-document.addEventListener('keypress', display)
+document.addEventListener('keypress', display);
 
 function display(e) {
-  var key = e.which
+  var key = e.which;
 
   // Give the same result if shift is pressed or someone mistakenly mashes capslock
   // Only works for ASCII
   if (key > 64 && key < 91) {
-    key += 32
+    key += 32;
   }
 
   if (key > 96){
