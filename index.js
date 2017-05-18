@@ -1,8 +1,13 @@
 import React from 'react'
-import {render} from 'react-dom'
+import ReactDOM from 'react-dom'
 
+import state from './state'
 import App from './components/App'
 
 const target = document.getElementById('root')
 
-render(<App />, target)
+const render = ()=> {
+  ReactDOM.render(App(state), target)
+}
+
+render()
