@@ -24,5 +24,7 @@ export default {
         code: "https://github.com/jeremy-liss/jeremy-liss.github.io/tree/master/a-z"
       }
     ]
-  ]
+  ],
+  name: "jeremyliss",
+  email: "gmail"  
 }

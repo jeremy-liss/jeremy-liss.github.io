@@ -5,7 +5,7 @@ import Links from './Links'
 const App = (props) => {
   return (
       <div className="homepage">
-        <Heading />
+        <Heading name={props.name} email={props.email} />
         <Links links={props.links} />
       </div>
     )
