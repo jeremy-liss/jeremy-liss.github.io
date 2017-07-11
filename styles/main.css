@@ -24,7 +24,7 @@
 }
 
 * {
-  font-family: 'Athiti', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .homepage {
@@ -53,10 +53,10 @@
 }
 
 .heading {
-  margin-top: 80px;
-  padding-bottom: 20px;
-  color: #fd734e;
-  text-align: right;
+  margin-top: 7%;
+  color: #f7f7ef;
+  text-align: center;
+  text-shadow: 2px 2px black;
 }
 
 .sub {
@@ -76,16 +76,30 @@ img {
 }
 
 a:link {
-  color: grey;
+  color: #f7f7ef;
   text-decoration: none;
 }
 
 a:visited {
-  color: grey;
+  color: #f7f7ef;
   text-decoration: none;
 }
 
 a:hover {
-  color: black;
   text-decoration: underline;
+}
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
 }

@@ -1,0 +1,45 @@
+
+.heading {
+  margin-top: 7%;
+  color: #f7f7ef;
+  text-align: center;
+  text-shadow: 3px 3px black;
+  letter-spacing: 2px;
+}
+
+a:link {
+  color: #f7f7ef;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #f7f7ef;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  letter-spacing: 5px;
+}
+
+h4 {
+  letter-spacing: 4px;
+}
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../images/piano.png) no-repeat;
+}
