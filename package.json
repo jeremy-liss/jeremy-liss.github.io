@@ -4,8 +4,8 @@
   "description": "jeremy-liss's blog",
   "main": "index.js",
   "scripts": {
-    "build": "browserify -t babelify index.js -o public/bundle.js",
-    "watch": "watchify -t babelify index.js -o public/bundle.js -dv"
+    "build": "browserify -t babelify index.js -o bundle.js",
+    "watch": "watchify -t babelify index.js -o bundle.js -dv"
   },
   "babel": {
     "presets": [
