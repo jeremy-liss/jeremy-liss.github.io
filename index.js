@@ -3,12 +3,39 @@ import ReactDOM from 'react-dom'
 
 import App from './components/App'
 
-let state = [false, false, false, false, false]
+let state = [
+  {
+    link: 'https://jeremy-liss.github.io/space-invaders/public/',
+    text: 'Space Invaders',
+    visible: false
+  },
+  {
+    link: 'https://jeremy-liss.github.io/drum-machine/public/',
+    text: 'A Drum Sequencer',
+    visible: false
+  },
+  {
+    link: 'https://jeremy-liss.github.io/barbara-shop/public/',
+    text: 'Barbara Shop Quartet',
+    visible: false
+  },
+  {
+    link: 'https://hazardous-asteroids.herokuapp.com/',
+    text: 'Are There Any Hazerdous Asteroids',
+    text2: 'Approaching Earth Today?',
+    visible: false
+  },
+  {
+    link: 'https://jeremy-liss.github.io/a-z/',
+    text: 'An A-Z Of Things In My Kitchen',
+    visible: false
+  }
+]
 
 let count = 0
 
 const links = (num) => {
-  state[num] = true
+  state[num].visible = true
   count ++
   render(state)
 }
