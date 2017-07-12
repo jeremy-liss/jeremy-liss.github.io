@@ -4,6 +4,7 @@ import Links from './Links'
 
 const App = (props) => {
   return (
+    <div>
       <div className="heading">
         <h1>JEREMY LISS</h1>
         <p>Enspiral Dev Academy Graduate, Web Developer &tc.</p>
@@ -14,6 +15,7 @@ const App = (props) => {
         {props[4] && <h4><a href='https://jeremy-liss.github.io/a-z/'>An A-Z Of Things In My Kitchen</a></h4>}
         <p><a href='https://github.com/jeremy-liss/'>github</a> | email</p>
       </div>
+    </div>
     )
 }
 
