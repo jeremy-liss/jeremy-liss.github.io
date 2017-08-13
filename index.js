@@ -41,7 +41,7 @@ const links = (num) => {
 }
 
 setInterval(()=>{
-  links(count)
+  count < 5 && links(count)
 }, 700)
 
 const target = document.getElementById('root')
