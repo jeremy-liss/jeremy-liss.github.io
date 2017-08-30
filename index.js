@@ -21,7 +21,7 @@ let state = [
   },
   {
     link: 'https://hazardous-asteroids.herokuapp.com/',
-    text: 'Are There Any Hazerdous Asteroids',
+    text: 'Are There Any Hazardous Asteroids',
     text2: 'Approaching Earth Today?',
     visible: false
   },
